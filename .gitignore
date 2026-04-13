@@ -1,0 +1,14 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (these contain secrets, don't push them!)
+*.tfstate
+*.tfstate.*
+id_rsa.pub 
+oci_api_key.pem
+
+# Crash log files
+crash.log
+
+# Sensitive variables
+*.tfvars
